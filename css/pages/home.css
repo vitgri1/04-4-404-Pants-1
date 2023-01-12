@@ -5,6 +5,15 @@
 
 /* components */
 @import '../components/button.css';
-
+@import '../components/search.css';
 
 /* Custom style below this comment line */
+
+.row {
+    width: 80%;
+    margin-left: 10%;
+}
+
+.narrow-row {
+    width: 60%;
+}

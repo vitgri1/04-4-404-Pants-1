@@ -4,4 +4,5 @@
     height: 450px;
     margin-left: calc(50% - 400px);
     margin-top: calc(50vh - 225px);
+    text-align: center;
 }
