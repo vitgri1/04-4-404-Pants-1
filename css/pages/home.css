@@ -11,9 +11,27 @@
 
 .row {
     width: 80%;
-    margin-left: 10%;
+    display: inline-block;
 }
 
 .narrow-row {
     width: 60%;
+    display: inline-block;
+}
+
+.title {
+    
+    line-height: 1.25em;
+    font-size: 38px;
+    margin-top: 40px;
+}
+
+.huge {
+    font-size: 200px;
+    line-height: 1em;
+    word-spacing: 1em;
+}
+
+.main-img {
+    
 }

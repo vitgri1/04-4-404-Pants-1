@@ -13,8 +13,8 @@ body {
     background-color: #fff;
 }
 
-p{
-    font-size: auto;
-    line-height: auto;
-    color: #000;
+p,
+h1, 
+div{
+    color: #F1D3B4;
 }
