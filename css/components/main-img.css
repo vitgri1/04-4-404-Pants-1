@@ -1,0 +1,16 @@
+.huge {
+    font-size: 150px;
+    line-height: 1em;
+    word-spacing: 1em;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-content: flex-start;
+    gap: 5px;
+    user-select: none;
+}
+
+.huge > img {
+    height: 1.5em;
+    margin-top: 0.08em;
+}

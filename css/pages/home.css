@@ -5,6 +5,7 @@
 
 /* components */
 @import '../components/button.css';
+@import '../components/main-img.css';
 @import '../components/search.css';
 
 /* Custom style below this comment line */
@@ -20,18 +21,7 @@
 }
 
 .title {
-    
     line-height: 1.25em;
     font-size: 38px;
     margin-top: 40px;
-}
-
-.huge {
-    font-size: 200px;
-    line-height: 1em;
-    word-spacing: 1em;
-}
-
-.main-img {
-    
 }
