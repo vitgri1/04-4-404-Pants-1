@@ -22,6 +22,47 @@
 
 .title {
     line-height: 1.25em;
-    font-size: 38px;
-    margin-top: 40px;
+    font-size: 74px;
+    margin-top: 80px;
+}
+
+@media (max-width:1600px) {
+    .title {
+        font-size: 38px;
+        margin-top: 40px;
+    }
+    .huge {
+        font-size: 150px;
+    }
+    .search {
+        font-size: 15px;
+    }
+}
+
+@media (max-width:800px) {
+    .title {
+        font-size: 19px;
+        margin-top: 20px;
+    }
+    .huge {
+        font-size: 75px;
+    }
+    .search {
+        font-size: 7.5px;
+    }
+}
+
+@media (max-width:400px) {
+    .title {
+        display: none;
+    }
+    .narrow-row {
+        margin-top: calc(50vh - 79px);
+    }
+    .huge {
+        font-size: 100px;
+    }
+    .search {
+        display: none;
+    }
 }
